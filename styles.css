@@ -33,7 +33,8 @@ body {
   display: block;
 }
 
-#menu {
+#menu,
+#menuNormal {
   white-space: pre-wrap;
   word-wrap: break-word;
   max-height: none;
