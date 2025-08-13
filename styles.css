@@ -121,32 +121,31 @@ html {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   body {
     font-size: 14px;
-    padding: 20px;
+    padding: 10px;
   }
 
   #menu,
   #menuNormal {
     font-size: 13px;
-    max-width: 95vw;
+    max-width: 100%;
     padding: 10px;
-    line-height: 1.6;
+    line-height: 1.5;
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin-bottom: 20px;
-  }
-
-  .scroll-indicator {
-    font-size: 10px;
-    padding: 4px 8px;
   }
 
   .cursor {
     width: 6px;
     height: 14px;
+  }
+
+  .scroll-indicator {
+    font-size: 10px;
+    padding: 4px 8px;
   }
 }
 
