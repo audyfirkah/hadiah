@@ -182,3 +182,8 @@ body::after {
   display: block;
   height: 20px;
 }
+
+.pre-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
