@@ -120,6 +120,31 @@ html {
   }
 }
 
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  #menu,
+  #menuNormal {
+    font-size: 13px;
+    max-width: 95vw;
+    padding: 10px;
+    line-height: 1.6;
+  }
+
+  .scroll-indicator {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .cursor {
+    width: 6px;
+    height: 14px;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 12px;
