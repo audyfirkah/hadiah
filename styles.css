@@ -132,6 +132,10 @@ html {
     max-width: 95vw;
     padding: 10px;
     line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
   }
 
   .scroll-indicator {
